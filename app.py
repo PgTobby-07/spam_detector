@@ -4,7 +4,7 @@ import os
 import logging
 import re
 
-app = Flask(__name__, template_folder="templates")
+app = Flask(__name__, template_folder="")
 
 # =========================
 # Logging
@@ -74,3 +74,4 @@ if __name__ == "__main__":
     print("Server running at: http://localhost:5000")
     if __name__ == "__main__":
         app.run()
+
