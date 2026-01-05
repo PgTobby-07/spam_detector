@@ -71,7 +71,7 @@ def predict():
 # Run app
 # =========================
 if __name__ == "__main__":
-    print("Server running at: http://localhost:5000")
-    if __name__ == "__main__":
-        app.run()
+    app.run()
+
+
 
